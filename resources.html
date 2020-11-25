@@ -12,46 +12,63 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1><strong>Magic The Gathering Club</strong></h1>
-  <p>Fueling the Magic addiction since 2019 for all students who want to join.</p> 
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
+  <h1>Magic The Gathering Club</h1>
+  <h2>Fueling the Magic addiction since 2019 for all students who want to join.</h2> 
+<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+  <script>
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</div>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <li><a href="index.html">Home</a></li>
 <li><a class="active" href="resources.html">Resources</a> </li>
-<li><a href="calender.html">Calender</a> </li>
+<li><a href="calender.html">Calendar</a> </li>
 <li><a href="new.html">New Player info</a> </li>
 <li><a href="https://www.mayhemcomics.com/">Mayhem Collectibles</a> </li>
 <li><a href="http://www.msmmm.com/">Main Street Magic</a> </li>
 <li><a href="https://discord.gg/AA6YU2eruW">Discord</a> </li>
-</ul>
-</nav>
+</div>
 </div>
  <hl>
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-10">
       <h3>Online Resources for Magic: The Gathering</h3>
 	  <hr>
-      <p>Each week we have meetings and events catered to new and experienced players</p>
-<ol>
-Cube Draft - Tuesdays at 5:30PM.</br>
-Club Meetings - Tuesdays at 5:00PM.</br>
-Commander Nights - Sundays starting at 3:00PM.</br>
-</ol>
+      <h4>Below are a list of resources helpful to those starting the game or for vetarans who need info about the next hot deck!</h4>
+	  <ol>
+<a href="https://strategy.channelfireball.com/all-strategy/magic/">
+<img src="CFB_icon.png" width="150" height="175"/>
+</a>
+<h4>Channel Fireball is one of the oldest, and well-known content sites for Magic: The Gathering. Started in 2012 by Luis Scott Vargas, a well-known professional player, the site has grown in popularity ever since. A great place for good information about the current meta, as well as good source of podcasts about Magic The Gathering play theory.</h4>
+</br>
+<hr>
+<a href="https://www.mtgstocks.com/news">
+<img src="mtgstocks.png" width="150" height="175"/>
+</a>
+<h4>MTGStocks is the best source to keep up-to-date on card prices about Magic: The Gathering hands down.</h4>
+</br>
+<hr>
+<a href="https://edhrec.com/">
+<img src="edhrec.png" width="150" height="175"/>
+</a>
+<h4>Commander is one of the most popular formats of Magic right now, and what better way to research and learn about it than through EDHREC. It is an extremely helpful database cataloging hundreds of thousands of decks from a multitude of websites all in one easy to use interface. Browsing the website is a breeze as well.</h4>
+</br>
+<hr>
+<a href="http://mtgtop8.com/">
+<img src="mtgtop8.png" width="200" height="25"/>
+</a>
+<h4>MTGtop8 is the best database of Tournament data decks. Whether you are looking for Modern decks, Standard decks, or Legacy decks. This place has all of that and more. </h4>
+
     </div>
-    <div class="col-sm-4">
-      <h3>Our Mission Statement</h3>
-      <p>This club is dedicated to growing a healthy community of Magic: The Gathering players at Iowa State. </br>
-We seek to foster and cater to new and old players in a healthy environment. </br>
-Our mission is to promote casual and competitive card gaming in a positive, inclusive, and diverse community.</br></p>
-      
-    </div>
-    <div class="col-sm-4">
-      <h3>Weekly Winners!</h3> 
-<img src="img_girl.jpg" alt="Winner Photo" width="500" height="600">	  
-      <p>Winner of the Cube Draft on 11/10/20 is Dozmen Lee. Congrats! </p>
-     
-	 </div>
   </div>
 </div>
 <footer>

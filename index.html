@@ -12,19 +12,30 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1><strong>Magic The Gathering Club</strong></h1>
-  <p>Fueling the Magic addiction since 2019 for all students who want to join.</p>
-<nav>
-<ul>
-<li><a class="active" href="index.html">Home</a></li>
-<li><a href="resources.html">Resources</a> </li>
-<li><a href="calender.html">Calender</a> </li>
+  <h1>Magic The Gathering Club</h1>
+  <h2>Fueling the Magic addiction since 2019 for all students who want to join.</h2>
+<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+  <script>
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</div>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <li><a href="index.html">Home</a></li>
+<li><a class="active" href="resources.html">Resources</a> </li>
+<li><a href="calender.html">Calendar</a> </li>
 <li><a href="new.html">New Player info</a> </li>
 <li><a href="https://www.mayhemcomics.com/">Mayhem Collectibles</a> </li>
 <li><a href="http://www.msmmm.com/">Main Street Magic</a> </li>
 <li><a href="https://discord.gg/AA6YU2eruW">Discord</a> </li>
-</ul>
-</nav>
+</div>
 </div>
  <hl>
 <div class="container">
@@ -32,28 +43,29 @@
     <div class="col-sm-4">
       <h3>Weekly Events</h3>
 	  <hr>
-      <p>Each week we have meetings and events catered to new and experienced players</p>
-<ol>
+      <h4>Each week we have meetings and events catered to new and experienced players</h4>
+<ul>
 Cube Draft - Tuesdays at 5:30PM.</br>
 Club Meetings - Tuesdays at 5:00PM.</br>
 Commander Nights - Sundays starting at 3:00PM.</br>
-Special Events announced monthly, and poted in Calender</br>
-</ol>
+Special Events announced monthly, and posted in Calender</br>
+</ul>
     </div>
     <div class="col-sm-4">
-      <h3>Our Mission Statement</h3>
+      <h3>Welcome to Magic The Gathering!</h3>
 	  <hr>
-      <p>This club is dedicated to growing a healthy community of Magic: The Gathering players at Iowa State. </br>
-We seek to foster and cater to new and old players in a healthy environment. </br>
-Our mission is to promote casual and competitive card gaming in a positive, inclusive, and diverse community.</br></p>
+      <h4>Welcome to Magic The Gathering here at Iowa State!
+	  If you would like to learn how to play Magic The Gathering
+	  feel free to come down to one of our meetings! We are always looking for new players.</br></h4>
+	  <hr>
+	  <iframe width="378" height="203" src="https://www.youtube.com/embed/4RtsXnvVIk8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  
       
     </div>
     <div class="col-sm-4">
-      <h3>Weekly Winners!</h3> 
+      <h3>Our Mission Statement</h3> 
 	  <hr>
-<img src="filler.jpg" alt="Winner Photo" width="250" height="300">	  
-      <p>Winner of the Cube Draft on 11/10/20 is Dozmen Lee. Congrats! </p>
-     
+	  <h4>This club is dedicated to growing a healthy community of Magic: The Gathering players at Iowa State. We seek to foster and cater to new and old players in a healthy environment. Our mission is to promote casual and competitive card gaming in a positive, inclusive, and diverse community.</h4>
 	 </div>
   </div>
 </div>
